@@ -9,7 +9,7 @@ function Header() {
         <h1 className="text-purpleText font-semibold text-lg">JSnacks</h1>
         <ul className="flex gap-20">
           {links.map((link) => (
-            <Links tag={link.tag} url={link.url} />
+            <Links key={link.tag} tag={link.tag} url={link.url} />
           ))}
         </ul>
       </div>
