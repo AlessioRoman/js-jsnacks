@@ -6,7 +6,7 @@ function Projects({ title, description, program }) {
         <p className="text-white">{description}</p>
       </div>
       <button
-        className="mt-10 p-2 border border-1 rounded-md hover:bg-purpleText hover:text-purpleBg"
+        className="mt-10 p-2 border border-1 rounded-lg hover:bg-purpleText hover:text-purpleBg"
         type="button"
         onClick={program}
       >
