@@ -26,7 +26,6 @@ function App() {
           <div className="pt-20 pb-20">
             <Buttons />
           </div>
-          <h2 id="result"></h2>
         </section>
       </main>
     </div>
