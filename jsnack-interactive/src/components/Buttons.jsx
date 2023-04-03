@@ -9,7 +9,7 @@ function Buttons() {
           key={project.title}
           title={project.title}
           description={project.description}
-          program={project.program}
+          identifier={project.identifier}
         />
       ))}
     </div>
