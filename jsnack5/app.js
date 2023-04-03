@@ -9,5 +9,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 for (let i = 0; i < numbers.length; i++) {
-  document.getElementById("result").innerHTML += toString.numbers[i];
+  document.getElementById("result").innerHTML += `
+   <li class="list-group-item"> ${numbers[i]} </li>
+  `;
 }
