@@ -3,7 +3,7 @@ import projects from "./../data/projects";
 
 function Buttons() {
   return (
-    <div className="flex flex-wrap justify-start gap-10 mx-80">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mx-80">
       {projects.map((project) => (
         <Projects
           key={project.title}
