@@ -1,9 +1,10 @@
 import { useState } from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-red-500">Hi</h1>
+      <Header />
     </div>
   );
 }
