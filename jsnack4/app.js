@@ -12,6 +12,7 @@ const invitati = [
   "Emanuele",
   "Vincenzo",
 ];
+
 const researchKey = prompt("Inserisci il tuo nome con la lettera maiuscola");
 
 const checkInvites = () => {
